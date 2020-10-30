@@ -69,6 +69,10 @@ android {
         return void
     }
 
+    lintOptions{
+        disable 'MissingDefaultResource'
+    }
+
     dataBinding {
         enabled = true
     }
